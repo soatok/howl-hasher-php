@@ -1,0 +1,32 @@
+{
+  "name": "soatok/howl-hasher",
+  "authors": [
+    {
+      "name": "Soatok Dreamseeker",
+      "email": "soatok.dhole@gmail.com",
+      "homepage": "https://soatok.blog"
+    }
+  ],
+  "description": "Transcript hashing with built-in domain separation",
+  "license": "ISC",
+  "autoload": {
+    "psr-4": {
+      "Soatok\\HowlHasher\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Soatok\\HowlHasher\\Tests\\": "tests"
+    }
+  },
+  "require": {
+    "php": "^8",
+    "ext-hash": "*",
+    "paragonie/constant_time_encoding": "^3",
+    "paragonie/sodium_compat": "^2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10",
+    "vimeo/psalm": "^5"
+  }
+}

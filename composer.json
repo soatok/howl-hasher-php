@@ -20,7 +20,7 @@
     }
   },
   "require": {
-    "php": "^8",
+    "php": "^8.2",
     "ext-hash": "*",
     "paragonie/constant_time_encoding": "^3",
     "paragonie/sodium_compat": "^2"
